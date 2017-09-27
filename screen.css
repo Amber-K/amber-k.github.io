@@ -45,9 +45,14 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
+h1 {
+  font-size: 2em;
+  color: #FFA705;
+}
+
 body {
   font-family: sans-serif;
-  color: #FFA705; }
+}
 
 a {
   color: #0388a6; }
