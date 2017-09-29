@@ -48,6 +48,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 h1 {
   font-size: 2em;
   color: #FFA705;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 body {
