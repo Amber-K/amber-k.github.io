@@ -46,13 +46,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 h1 {
-  font-size: 2em;
+  font-size: 36pt;
   color: #FFA705;
-  text-align: center;
 }
 
 h2 {
-  text-align: center;
+  font-size: 18pt;
 }
 
 body {
@@ -63,6 +62,13 @@ a {
   color: #0388a6; }
   a:hover {
     color: #009ce0; }
+
+.title {
+
+}
+#center {
+  text-align: center;
+}
 
 #main {
   padding: 50px; }
