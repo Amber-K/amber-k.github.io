@@ -18,57 +18,29 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-ol, ul {
-  list-style: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle; }
-
-q, blockquote {
-  quotes: none; }
-  q:before, q:after, blockquote:before, blockquote:after {
-    content: "";
-    content: none; }
-
-a img {
-  border: none; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block; }
-
 h1 {
-  font-size: 36pt; }
+  font-size: 36pt;
+  color: white;
+  background-color: #ff5900; }
 
 h2 {
   font-size: 18pt;
-  padding: 12px; }
+  padding: 12px;
+  color: white;
+  background-color: #ff5900; }
 
 body {
   font-family: sans-serif;
-  color: white;
-  background-color: #ff5900;
+  color: #ff5900;
   line-height: 1;
   text-align: center; }
 
 a {
-  color: #0388a6; }
-  a:hover {
-    color: #009ce0; }
+  background-color: white;
+  color: #ff5900; }
 
-.title {
-  font-weight: bold; }
-
-.label {
+p {
   font-weight: bold;
   font-size: 14pt;
   padding: 12px; }
-
-#boxed {
-  background-color: white;
-  color: #ff5900; }
+}
