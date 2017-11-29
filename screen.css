@@ -53,7 +53,8 @@ body {
   font-family: sans-serif;
   color: white;
   background-color: #ff5900;
-  line-height: 1; }
+  line-height: 1;
+  text-align: center; }
 
 a {
   color: #0388a6; }
@@ -61,16 +62,13 @@ a {
     color: #009ce0; }
 
 .title {
+  font-weight: bold; }
+
+.label {
   font-weight: bold;
-  text-align: center; }
+  font-size: 14pt;
+  padding: 12px; }
 
-.image {
-  text-align: center;
-  border-style: solid;
-  border-width: 5px; }
-
-#mini {
-  font-size: 14pt; }
-
-#main {
-  padding: 50px; }
+#boxed {
+  background-color: white;
+  color: #ff5900; }
