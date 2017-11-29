@@ -18,9 +18,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-body {
-  line-height: 1; }
-
 ol, ul {
   list-style: none; }
 
@@ -46,18 +43,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 h1 {
-  font-size: 36pt;
-}
+  font-size: 36pt; }
 
 h2 {
   font-size: 18pt;
-}
+  padding: 12px; }
 
 body {
   font-family: sans-serif;
   color: white;
   background-color: #ff5900;
-}
+  line-height: 1; }
 
 a {
   color: #0388a6; }
@@ -66,18 +62,15 @@ a {
 
 .title {
   font-weight: bold;
-  text-align: center;
-}
+  text-align: center; }
 
 .image {
   text-align: center;
   border-style: solid;
-  border-width: 5px;
-}
+  border-width: 5px; }
 
 #mini {
-  font-size: 14pt;
-}
+  font-size: 14pt; }
 
 #main {
   padding: 50px; }
