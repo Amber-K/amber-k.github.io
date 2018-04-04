@@ -20,6 +20,7 @@ time, mark, audio, video {
 
 h1 {
   font-size: 36pt;
+  font-weight: bold;
   color: white;
   background-color: #ff5900; }
 
@@ -40,7 +41,15 @@ a {
   color: #ff5900; }
 
 p {
-  font-weight: bold;
   font-size: 14pt;
-  padding: 12px; }
+  padding: 12px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+.bold {
+  font-weight: bold;
 }
