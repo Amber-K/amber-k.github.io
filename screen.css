@@ -52,6 +52,14 @@ img {
   border-color: #ff5900;
 }
 
+iframe {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ff5900;
+  width: 500px;
+  height: 374px;
+}
+
 .description {
   font-weight: normal;
   font-size: 18pt;
