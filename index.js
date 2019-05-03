@@ -1,5 +1,5 @@
 var imgCarousel = {
-  images: ["assets/images/faceShot.jpg", "assets/images/ncwit1.jpg", "assets/images/ncwit2.jpg"],
+  images: ["assets/images/faceShot.jpg", "assets/images/ncwit1.JPG", "assets/images/ncwit2.JPG"],
   currentImg: 0
 };
 setInterval(function() {
