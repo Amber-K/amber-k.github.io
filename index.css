@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, helvetica;
+  text-align: center;
+}
+h1, h2, h3 {
+  margin: 10px;
+}
+#body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* ----------------------------------------- */
+.pageTop {
+  background-color: rgb(90, 90, 90);
+  color: white;
+}
+.pageTop h1, .pageTop h2 {
+  display: inline-block;
+}
+.pageTop h1 a, .pageTop h2 a {
+  text-decoration: none;
+  color: white;
+}
+.pageTop h2 {
+  font-weight: normal;
+}
+.pageTop > img {
+  float: right;
+  height: 40px;
+  width: 40px;
+  border: thin solid rgba(90, 90, 90, 0);
+  position: relative;
+  right: 10px;
+  bottom: 60px;
+}
+.pageTop > img:hover {
+  border-radius: 10%;
+  border-color: white;
+  background-color: rgb(90, 90, 90);
+}
+#navigation {
+  display: none;
+  position: relative;
+  bottom: 20px;
+}
+#navigation a {
+  text-align: center;
+  background-color: white;
+  color: rgb(90, 90, 90);
+  text-decoration: none;
+  border: thin solid white;
+  padding: 2px;
+}
+#navigation li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#navigation li > a {
+  border-color: black;
+  font-weight: bold;
+}
+#navigation div a {
+  display: block;
+}
+#navigation a:hover {
+  background-color: rgb(90, 90, 90);
+  color: white;
+}
+#generalProjectsList {
+  position: relative;
+  left: 50px;
+  top: 4px;
+}
+#generalProjectsList > a {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+#gameProjectsList {
+  position: relative;
+  left: 25px;
+  top: 4px;
+}
+#gameProjectsList > a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#assemblyProjectsList {
+  position: relative;
+  top: 4px;
+}
+#writingList {
+  position: relative;
+  right: 25px;
+  top: 16px;
+}
+#writingList > a {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+#communityInvolvementList {
+  position: relative;
+  right: 50px;
+  top: 19px;
+}
+/* ----------------------------------------- */
+.mainText {
+  flex: 1;
+}
+#imgCarousel {
+  float: left;
+  margin: 10px;
+  margin-top: 20px;
+  height: 150px;
+  width: 200px;
+  border-radius: 5%;
+  border: thin solid rgb(90, 90, 90);
+}
+#bio {
+  padding-right: 10px;
+  padding-top: 20px;
+  color: rgb(90, 90, 90);
+  text-align: justify;
+}
+#yongBakos {
+  padding-bottom: 10px;
+}
+#ameliaRoberts {
+  padding-bottom: 20px; 
+}
+.sectionTitle {
+  margin: 5px;
+  font-style: italic;
+}
+.sectionDescription {
+  color: rgb(90, 90, 90);
+  font-style: italic;
+}
+.listedContent {
+  margin: 20px;
+  list-style: none;
+}
+.listedContent h3 {
+  margin: 0;
+  padding-top: 40px;
+}
+.listedContent a {
+  border-radius: 30%;
+  border: thin solid rgb(90, 90, 90);
+  background-color: rgb(90, 90, 90);
+  padding: 3px;
+  color: white;
+  text-decoration: none;
+}
+.listedContent a:hover {
+  background-color: white;
+  color: rgb(90, 90, 90);
+}
+.listedContent p {
+  color: rgb(90, 90, 90);
+  padding: 5px;
+  padding-bottom: 10px;
+}
+.image, .listedContent iframe {
+  margin-top: 5px;
+  border-radius: 5%;
+  border: thin solid rgb(90, 90, 90);
+}
+/* ----------------------------------------- */
+.pageBase {
+  background-color: rgb(90, 90, 90);
+  color: white;
+}
+.pageBase a {
+  color: white;
+  border-radius: 10%;
+}
+.pageBase a:hover {
+  background-color: white;
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}

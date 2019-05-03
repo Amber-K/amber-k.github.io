@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link type ="text/css" rel="stylesheet" href="index.css" />
+    <link type="text/css" rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <title>Amber Kolar's Portfolio</title>
+  </head>
+  <body id="body">
+    <header class="pageTop">
+      <h1><a href="index.html">Amber Kolar —</a></h1>
+      <h2><a href="index.html">Computer Science Portfolio</a></h2>
+    </header>
+    <nav class="pageTop">
+      <img src="assets/images/hamburgerButton.png" onclick="toggleNavigation()" />
+      <ul id="navigation">
+        <li id="generalProjectsList">
+          <a href="generalProjects.html" onmouseout="navLift('list1')" onmouseover="navDrop('list1')">General Projects</a>
+          <div id="list1" onmouseout="navLift('list1')" onmouseover="navDrop('list1')">
+            <a href="generalProjects.html #thisWebsite">This Website</a>
+            <a href="generalProjects.html #integerToBinary">Integer to Binary Converter</a>
+            <a href="generalProjects.html #zombulator">Zombulator</a>
+            <br>
+            <br>
+            <br>
+          </div>
+        </li>
+        <li id="gameProjectsList">
+          <a href="gameProjects.html" onmouseout="navLift('list2')" onmouseover="navDrop('list2')">Game Projects</a>
+          <div id="list2" onmouseout="navLift('list2')" onmouseover="navDrop('list2')">
+            <a href="gameProjects.html #bustOut">Bust Out</a>
+            <a href="gameProjects.html #pongsRevenge">Pong's Revenge</a>
+            <a href="gameProjects.html #flyingSpaceship">Flying Spaceship</a>
+            <br>
+            <br>
+            <br>
+          </div>
+        </li>
+        <li id="assemblyProjectsList">
+          <a href="assemblyProjects.html" onmouseout="navLift('list3')" onmouseover="navDrop('list3')">Assembly Code Projects</a>
+          <div id="list3" onmouseout="navLift('list3')" onmouseover="navDrop('list3')">
+            <a href="assemblyProjects.html #factorialCalculator">Factorial Calculator</a>
+            <a href="assemblyProjects.html #encoderDecoder">Encoder/Decoder</a>
+            <a href="assemblyProjects.html #nestingChecker">Nesting Checker</a>
+            <br>
+            <br>
+            <br>
+          </div>
+        </li>
+        <li id="writingList">
+          <a href="writing.html" onmouseout="navLift('list4')" onmouseover="navDrop('list4')">Writing</a>
+          <div id="list4" onmouseout="navLift('list4')" onmouseover="navDrop('list4')">
+            <a href="writing.html #annotatedBibliography">Annotated Bibliography</a>
+            <a href="writing.html #argumentOfDefinition">Argument of Definition</a>
+            <a href="writing.html #instructionManual">Instruction Manual</a>
+            <a href="writing.html #proposalEssay">Proposal Essay</a>
+            <a href="writing.html #rhetoriclAnalysis">Rhetorical Analysis</a>
+            <br>
+          </div>
+        </li>
+        <li id="communityInvolvementList">
+          <a href="communityInvolvement.html" onmouseout="navLift('list5')" onmouseover="navDrop('list5')">Community Involvement and Leadership</a>
+          <div id="list5" onmouseout="navLift('list5')" onmouseover="navDrop('list5')">
+            <a href="communityInvolvement.html #amcwChapter">AMC-W Chapter</a>
+            <a href="communityInvolvement.html #ncwitAwards">NCWIT Award Ceremony</a>
+            <a href="communityInvolvement.html #bvc">Bend Venture Conference</a>
+            <a href="communityInvolvement.html #codeathonMentorship">Code-a-Thon Mentorship</a>
+            <a href="communityInvolvement.html #habitatForHumanity">Habitat for Humanity</a>
+            <a href="communityInvolvement.html #bendCommunityCenter">Bend Community Center</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <section class="mainText">
+      <h2 class="sectionTitle">Assembly Code Projects</h2>
+      <p class="sectionDescription">All my assembly code projects are written in x86 and have Makefiles.</p>
+      <ul class="listedContent">
+        <li id="factorialCalculator">
+          <h3>Factorial Calculator (2018)</h3>
+          <p>When a small enough number is entered, the program will calculate the factorial of that number and output the result.</p>
+          <a href="assets/projects/assembly/factorialCalculator.zip">Download Zipped Source</a>
+        </li>
+        <li id="encoderDecoder">
+          <h3>Encoder/Decoder (2018)</h3>
+          <p>Input with repeating characters will be encoded by the encoder and output with single characters followed by numerical representations of their repetitions. The decoder program does the exact opposite of the encoder.</p>
+          <a href="assets/projects/assembly/encoderDecoder.zip">Download Zipped Source</a>
+        </li>
+        <li id="nestingChecker">
+          <h3>Nesting Checker (2018)</h3>
+          <p>This code will take an input with brackets, parentheses, and braces. It will output the user's input if everything is nested correctly, but will instead output an error message if there is incorrect nesting.</p>
+          <a href="assets/projects/assembly/nestingChecker.zip">Download Zipped Source</a>
+        </li>
+      </ul>
+    </section>
+    <footer class="pageBase">
+      <h3>Contact Information</h3>
+      <p>(541) 639-7343, amberj.kolar@gmail.com</p>
+      <h3><a href="assets/pdfs/amberKolarResume.pdf" target="_blank">Resume</a></h3>
+    </footer>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>

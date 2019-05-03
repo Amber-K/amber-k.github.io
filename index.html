@@ -1,72 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
-    <title>Amber Kolar</title>
+    <meta charset="utf-8">
+    <link type ="text/css" rel="stylesheet" href="index.css" />
+    <link type="text/css" rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <title>Amber Kolar's Portfolio</title>
   </head>
-  <body class="index">
-    <div id="main" role="main">
-      <h1>Amber Kolar</h1>
-      <h2 class="description">Amber is attending school at Oregon State University-Cascades, working on a Computer Science Bachelor of Science.</h2>
-
-      <h2>Computer Science</h2>
-
-      <p class="title">Bust Out (2018)</p>
-      <p><iframe src="https://www.youtube.com/embed/skNOuuXYsdc"></iframe></p>
-      <p><a href="CSProjects/BustOutExecutable.zip">Download Windows Executable</a></p>
-      <p><a href="CSProjects/BustOutSrcAndData.zip">Download My Source Code (Uses Open Frameworks)</a></p>
-      <p></p><h2></h2>
-
-      <p class="title">Pong's Revenge (2018)</p>
-      <p><iframe src="https://www.youtube.com/embed/AqhyhF5hJV0"></iframe></p>
-      <p><a href="CSProjects/PongRevengeExecutable.zip">Download Windows Executable</a></p>
-      <p><a href="CSProjects/PongRevengeSrcAndData.zip">Download My Source Code (Uses Open Frameworks)</a></p>
-      <p></p><h2></h2>
-
-      <p class="title">Flying Spaceship (2018)</p>
-      <p><iframe src="https://www.youtube.com/embed/Swmv-0MnoqU"></iframe></p>
-      <p><a href="CSProjects/FlyingSpaceshipExecutable.zip">Download Windows Executable</a></p>
-      <p><a href="CSProjects/FlyingSpaceshipSrcAndData.zip">Download My Source Code (Uses Open Frameworks)</a></p>
-      <p></p><h2></h2>
-
-      <p class="title">Zombulator (2017)</p>
-      <p><img src="Images/Zombulator.jpg"></p>
-      <p><a href="https://amber-k.github.io/cs160-zombulator">Run Zombulator</a></p>
-      <p><a href="https://github.com/Amber-K/cs160-zombulator">Github Repository Source</a></p>
-      <p></p><h2></h2>
-
-      <p class="title">This Page (2018)</p>
-      <p><a href="https://github.com/Amber-K/amber-k.github.io">Github Repository Source</a></p>
-      <p></p><h2></h2>
-
-      <h2>Technical Writing</h2>
-
-      <p class="title">Instruction Manual for Tying Laced Sneakers (2018)</p>
-      <p><img src="Images/InstructionManual.jpg"></p>
-      <p><a href="PDFs/IntroductoryMemo.pdf">Introductory Memo PDF</a></p>
-      <p><a href="PDFs/OutlineMemo.pdf">Outline Memo PDF</a></p>
-      <p><a href="PDFs/InstructionManual.pdf">Instruction Manual PDF</a></p>
-      <p><a href="PDFs/DesignReport.pdf">Design Report PDF</a></p>
-      <p></p><h2></h2>
-
-      <p class="title">Oxford Hotel Bend, OR Website Usability Test Report (2018)</p>
-      <p><img src="Images/UsabilityTest.jpg"></p>
-      <p><a href="PDFs/ProjectPlanMemo.pdf">Project Plan Memo PDF</a></p>
-      <p><a href="PDFs/MethodsMemo.pdf">Methods Memo PDF</a></p>
-      <p><a href="PDFs/UsabilityReport.pdf">Usability Report PDF</a></p>
-      <p></p><h2></h2>
-
-      <h2>Other</h2>
-
-      <p class="title">Graphic Arts Portfolio (2016)</p>
-      <p><img src="Images/GraphicArtsPortfolio.jpg"></p>
-      <p><a href="http://ambergraphicarts.wixsite.com/portfolio">Visit Graphic Arts Portfolio</a></p>
-      <p></p><h2></h2>
-
-      <p class="title">Resume (2018)</p>
-      <p><a href="PDFs/AmberKolarResume.pdf">Resume PDF</a></p>
-      <p></p><h2></h2>
-    </div>
+  <body id="body">
+    <header class="pageTop">
+      <h1><a href="index.html">Amber Kolar —</a></h1>
+      <h2><a href="index.html">Computer Science Portfolio</a></h2>
+    </header>
+    <nav class="pageTop">
+      <img src="assets/images/hamburgerButton.png" onclick="toggleNavigation()" />
+      <ul id="navigation">
+        <li id="generalProjectsList">
+          <a href="generalProjects.html" onmouseout="navLift('list1')" onmouseover="navDrop('list1')">General Projects</a>
+          <div id="list1" onmouseout="navLift('list1')" onmouseover="navDrop('list1')">
+            <a href="generalProjects.html #thisWebsite">This Website</a>
+            <a href="generalProjects.html #integerToBinary">Integer to Binary Converter</a>
+            <a href="generalProjects.html #zombulator">Zombulator</a>
+            <br>
+            <br>
+            <br>
+          </div>
+        </li>
+        <li id="gameProjectsList">
+          <a href="gameProjects.html" onmouseout="navLift('list2')" onmouseover="navDrop('list2')">Game Projects</a>
+          <div id="list2" onmouseout="navLift('list2')" onmouseover="navDrop('list2')">
+            <a href="gameProjects.html #bustOut">Bust Out</a>
+            <a href="gameProjects.html #pongsRevenge">Pong's Revenge</a>
+            <a href="gameProjects.html #flyingSpaceship">Flying Spaceship</a>
+            <br>
+            <br>
+            <br>
+          </div>
+        </li>
+        <li id="assemblyProjectsList">
+          <a href="assemblyProjects.html" onmouseout="navLift('list3')" onmouseover="navDrop('list3')">Assembly Code Projects</a>
+          <div id="list3" onmouseout="navLift('list3')" onmouseover="navDrop('list3')">
+            <a href="assemblyProjects.html #factorialCalculator">Factorial Calculator</a>
+            <a href="assemblyProjects.html #encoderDecoder">Encoder/Decoder</a>
+            <a href="assemblyProjects.html #nestingChecker">Nesting Checker</a>
+            <br>
+            <br>
+            <br>
+          </div>
+        </li>
+        <li id="writingList">
+          <a href="writing.html" onmouseout="navLift('list4')" onmouseover="navDrop('list4')">Writing</a>
+          <div id="list4" onmouseout="navLift('list4')" onmouseover="navDrop('list4')">
+            <a href="writing.html #annotatedBibliography">Annotated Bibliography</a>
+            <a href="writing.html #argumentOfDefinition">Argument of Definition</a>
+            <a href="writing.html #instructionManual">Instruction Manual</a>
+            <a href="writing.html #proposalEssay">Proposal Essay</a>
+            <a href="writing.html #rhetoriclAnalysis">Rhetorical Analysis</a>
+            <br>
+          </div>
+        </li>
+        <li id="communityInvolvementList">
+          <a href="communityInvolvement.html" onmouseout="navLift('list5')" onmouseover="navDrop('list5')">Community Involvement and Leadership</a>
+          <div id="list5" onmouseout="navLift('list5')" onmouseover="navDrop('list5')">
+            <a href="communityInvolvement.html #amcwChapter">AMC-W Chapter</a>
+            <a href="communityInvolvement.html #ncwitAwards">NCWIT Award Ceremony</a>
+            <a href="communityInvolvement.html #bvc">Bend Venture Conference</a>
+            <a href="communityInvolvement.html #codeathonMentorship">Code-a-Thon Mentorship</a>
+            <a href="communityInvolvement.html #habitatForHumanity">Habitat for Humanity</a>
+            <a href="communityInvolvement.html #bendCommunityCenter">Bend Community Center</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <section class="mainText">
+      <img id="imgCarousel" src="assets/images/faceShot.jpg" alt="Image Carousel" />
+      <p id="bio">I'm Amber Kolar, a computer science major at OSU-Cascades. My objective is to use dependability, critical thinking, and organization to contribute to the development of ethical software and products. Explore my website to view some of my work and learn how I’ve been involved in the community.</p>
+    </section>
+    <article>
+      <h2>References</h2>
+      <div>
+        <p id="yongBakos"><b>Yong Bakos:</b> (541) 322-2060, yong.bakos@osucascades.edu</p>
+        <p id="ameliaRoberts"><b>Amelia Roberts:</b> (559) 309-3454, amelia.roberts@osucascades.edu</p>
+      </div>
+    </article>
+    <footer class="pageBase">
+      <h3>Contact Information</h3>
+      <p>(541) 639-7343, amberj.kolar@gmail.com</p>
+      <h3><a href="assets/pdfs/amberKolarResume.pdf" target="_blank">Resume</a></h3>
+    </footer>
   </body>
+  <script type="text/javascript" src="index.js"></script>
 </html>
