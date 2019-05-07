@@ -1,14 +1,17 @@
-var imgCarousel = {
-  images: ["assets/images/faceShot.jpg", "assets/images/ncwit1.JPG", "assets/images/ncwit2.JPG"],
-  currentImg: 0
-};
-setInterval(function() {
-  ++imgCarousel.currentImg;
-  if (imgCarousel.currentImg > 2) {
-    imgCarousel.currentImg = 0;
-  }
-  document.getElementById("imgCarousel").src = imgCarousel.images[imgCarousel.currentImg];
-}, 6000);
+function carousel() {
+	var imgCarousel = {
+	  images: ["assets/images/faceShot.jpg", "assets/images/ncwit1.JPG", "assets/images/ncwit2.JPG"],
+	  currentImg: 0
+	};
+	setInterval(function() {
+	  ++imgCarousel.currentImg;
+	  if (imgCarousel.currentImg > 2) {
+	    imgCarousel.currentImg = 0;
+	  }
+	  document.getElementById("imgCarousel").src = imgCarousel.images[imgCarousel.currentImg];
+	}, 6000);
+}
+carousel();
 
 function toggleNavigation() {
 	if (document.getElementById("navigation").style.display == "none") {
